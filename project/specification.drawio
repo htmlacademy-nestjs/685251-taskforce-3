@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
+        <mxGraphModel dx="4684" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=210;entryPerimeter=0;" parent="1" source="39150e848f15840c-1" target="39150e848f15840c-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39150e848f15840c-1" value="&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;USERS&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.1. Регистрация новых пользователей.&lt;br&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-variant-ligatures: none; font-size: 12px;&quot;&gt;1.2. Авторизация пользователей на&amp;nbsp;основе JWT.&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.5. Разделение пользователей по&amp;nbsp;ролям: «Исполнители»,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;«Заказчики».&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-variant-ligatures: none; box-sizing: inherit; font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.11. Смена пароля пользователя.&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-variant-ligatures: none; box-sizing: inherit; font-size: 12px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.7. Участие в&amp;nbsp;обсуждении заданий.&lt;/font&gt;&lt;/div&gt;1.8. Отклики на&amp;nbsp;задания.&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-variant-ligatures: none; box-sizing: inherit;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.12. Расчёт рейтинга пользователя.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;1.15. Статистика по&amp;nbsp;выполненным заданиям.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.16. Отзывы.&lt;br&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-variant-ligatures: none;&quot;&gt;&lt;/div&gt;&lt;/font&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="10" width="430" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="39150e848f15840c-2" target="c250BP8tSVPmR_Rls1Wd-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39150e848f15840c-2" value="&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;TASKS&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.4. Просмотр детальной информации о&amp;nbsp;задании.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;1.3. Создание, редактирование, удаление заданий.&lt;br style=&quot;font-size: 12px;&quot;&gt;1.6. Загрузка изображений для заданий.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1.9. Пагинация для списка заданий.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1.13. Категоризация заданий.&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-variant-ligatures: none; box-sizing: inherit;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;1.14. Фильтрация заданий.&lt;br&gt;1.17. Разбивка заданий по&amp;nbsp;тегам.&lt;br&gt;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-size: 12px; font-variant-ligatures: none; box-sizing: inherit;&quot;&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 12px; font-variant-ligatures: none; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="360" width="430" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="39150e848f15840c-3" value="REST API" style="verticalAlign=middle;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+                    <mxGeometry x="-680" y="60" width="260" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="39150e848f15840c-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=8;endArrow=none;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;" parent="1" source="39150e848f15840c-3" target="39150e848f15840c-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-760" y="320"/>
+                            <mxPoint x="170" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39150e848f15840c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=8;endArrow=none;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;" parent="1" source="39150e848f15840c-3" target="39150e848f15840c-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-250" y="90"/>
+                            <mxPoint x="-250" y="90"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-1" value="TASKFORCE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" parent="1" vertex="1">
+                    <mxGeometry x="-620" y="20" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-2" value="&lt;h2 style=&quot;box-sizing: inherit; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; font-family: &amp;quot;TT Norms Pro&amp;quot;, Arial, sans-serif; color: rgb(51, 51, 51); margin: 15px 0px 0.53em; font-size: 11px; line-height: 1.2em; padding-bottom: 0px; border-bottom: none; font-variant-ligatures: none; text-align: start; background-color: rgb(255, 255, 255);&quot; id=&quot;obshchii-spisok-stsenariev&quot;&gt;Общий список сценариев&lt;/h2&gt;&lt;h2 style=&quot;box-sizing: inherit; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; font-family: &amp;quot;TT Norms Pro&amp;quot;, Arial, sans-serif; color: rgb(51, 51, 51); margin: 15px 0px 0.53em; font-size: 11px; line-height: 1.2em; padding-bottom: 0px; border-bottom: none; font-variant-ligatures: none; text-align: start; background-color: rgb(255, 255, 255);&quot; id=&quot;obshchii-spisok-stsenariev&quot;&gt;&lt;p style=&quot;box-sizing: inherit; margin: 10px 0px 15px; line-height: 1.5; padding-bottom: 0px; font-size: 11px; font-weight: 400;&quot;&gt;1.1. Регистрация новых пользователей.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.2. Авторизация пользователей на&amp;nbsp;основе JWT.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.3. Создание, редактирование, удаление заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.4. Просмотр детальной информации о&amp;nbsp;задании.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.5. Разделение пользователей по&amp;nbsp;ролям: «Исполнители», «Заказчики».&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.6. Загрузка изображений для заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.7. Участие в&amp;nbsp;обсуждении заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.8. Отклики на&amp;nbsp;задания.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.9. Пагинация для списка заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.10. Рассылка почтовых уведомлений на&amp;nbsp;email о&amp;nbsp;появлении новых заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.11. Смена пароля пользователя.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.12. Расчёт рейтинга пользователя.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.13. Категоризация заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.14. Фильтрация заданий.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.15. Статистика по&amp;nbsp;выполненным заданиям.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.16. Отзывы.&lt;br style=&quot;box-sizing: inherit; font-size: 11px;&quot;&gt;1.17. Разбивка заданий по&amp;nbsp;тегам.&lt;/p&gt;&lt;/h2&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="-1030" y="450" width="420" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c250BP8tSVPmR_Rls1Wd-2" target="c250BP8tSVPmR_Rls1Wd-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="c250BP8tSVPmR_Rls1Wd-7" target="39150e848f15840c-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="990" y="654"/>
+                            <mxPoint x="990" y="30"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-7" value="&lt;b&gt;MAIL&lt;/b&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;1.10. Рассылка почтовых уведомлений на&amp;nbsp;email &lt;br style=&quot;font-size: 12px;&quot;&gt;о&amp;nbsp;появлении новых заданий." style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="630" width="430" height="207.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="c250BP8tSVPmR_Rls1Wd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=8;endArrow=none;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0;exitDx=150;exitDy=10;exitPerimeter=0;" parent="1" source="39150e848f15840c-3" target="c250BP8tSVPmR_Rls1Wd-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-790" y="240"/>
+                            <mxPoint x="-790" y="350"/>
+                            <mxPoint x="-540" y="350"/>
+                            <mxPoint x="-540" y="670"/>
+                        </Array>
+                        <mxPoint x="140" y="375" as="sourcePoint"/>
+                        <mxPoint x="490" y="375" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
