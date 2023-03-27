@@ -1,0 +1,48 @@
+# Create a new task
+POST http://localhost:3333/api/task/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "new task1",
+  "description": "carpenter work",
+  "category": "carpenting",
+  "price": "$1000",
+  "deadline": "2023-03-30",
+  "image": "/img.png",  
+  "adress": "Westside road 1234",
+  "tag": "GoodWork", 
+  "city": "Moscow",
+  "author": "Smith"
+}
+
+###
+
+# Get list of tasks
+GET http://localhost:3333/api/task/list HTTP/1.1
+
+###
+
+# Get task by ID
+GET http://localhost:3333/api/task/19571132-3528-44e1-9d05-6ae113a51a7d HTTP/1.1
+
+###
+
+# Update task by ID
+PATCH http://localhost:3333/api/task/1e0f5a09-fbbd-43a3-b83b-cf026ceeeeb0 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "UPDATED! new task1",
+  "description": "UPDATED! carpenter work",
+  "category": "carpenting",
+  "price": "$1000",
+  "deadline": "2023-03-30",
+  "image": "/img.png",  
+  "adress": "Westside road 1234",
+  "tag": "GoodWork", 
+  "city": "Moscow",
+  "author": "Smith"
+}
+
+
+###
