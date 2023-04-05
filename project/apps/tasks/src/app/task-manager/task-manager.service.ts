@@ -1,7 +1,6 @@
 import { TaskStatus } from "@project/shared/app-types";
 import { TaskMemoryRepository } from "../task/task-memory.repository";
 import { CreateTaskDto } from "./dto/create-task.dto";
-import dayjs from 'dayjs';
 import { TaskEntity } from "../task/task.entity";
 import { Injectable } from "@nestjs/common";
 
@@ -11,22 +10,28 @@ export class TaskManagerService {
         private readonly taskRepository: TaskMemoryRepository
     ) {}
 
-    public createTask (dto: CreateTaskDto) {
+    private prepareEntity (dto: CreateTaskDto) {
         const {title, description, category, price, deadline, image, adress, tag, city} = dto;
 
         const task = {
             title, description, 
             price, deadline, adress, tag, city, 
             image,
-            author: '',
+            author: '', //TODO связать с USERS (пока неумеем)
             category,
-            date: dayjs(Date.now()).toDate(),
             status: TaskStatus.New 
         }
 
-        const taskEntity = new TaskEntity(task);
+        return new TaskEntity(task);
+    }
 
-        return this.taskRepository.create(taskEntity)
+    public createTask (dto: CreateTaskDto) {
+        return this.taskRepository.create(this.prepareEntity(dto))
+    }
+
+    public async updateTask (id: string, dto: CreateTaskDto) {
+        return this.taskRepository.update(id, this.prepareEntity(dto));
+        
     }
 
     public async getTask (id: string) {
@@ -41,21 +46,5 @@ export class TaskManagerService {
         await this.taskRepository.destroy(id);
     }
 
-    public async updateTask (id: string, dto: CreateTaskDto) {
-        const {title, description, category, price, deadline, image, adress, tag, city} = dto;
-
-        const task = {
-            title, description, 
-            price, deadline, adress, tag, city, 
-            image,
-            author: '',
-            category,
-            date: dayjs(Date.now()).toDate(),
-            status: TaskStatus.New 
-        }
-
-        const taskEntity = new TaskEntity(task);
-        return this.taskRepository.update(id, taskEntity);
-        
-    }
+    
 }

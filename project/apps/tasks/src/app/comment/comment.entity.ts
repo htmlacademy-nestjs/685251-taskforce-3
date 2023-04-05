@@ -2,9 +2,9 @@ import { Comment, User } from '@project/shared/app-types'
 
 export class CommentEntity implements Comment {
     _id?: string;
-    taskId: string;
+    taskId?: string;
     text: string;
-    author: User;
+    author?: User;
     date: Date;
 
     constructor(comment: Comment) {

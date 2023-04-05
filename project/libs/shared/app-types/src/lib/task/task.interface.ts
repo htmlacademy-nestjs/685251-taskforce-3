@@ -13,6 +13,6 @@ export interface Task {
     tag?: string;
     city: TaskCity;
     author: string;
-    date: Date;
+    date?: Date;
     status: TaskStatus;
 }

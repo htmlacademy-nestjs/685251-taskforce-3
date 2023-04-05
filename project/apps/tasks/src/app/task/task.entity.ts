@@ -12,7 +12,7 @@ export class TaskEntity implements Task {
     tag?: string;
     city: TaskCity;
     author: string;
-    date: Date;
+    date?: Date;
     status: TaskStatus;
 
     constructor(task: Task) {
