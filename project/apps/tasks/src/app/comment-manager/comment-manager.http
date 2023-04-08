@@ -1,0 +1,47 @@
+# Create a new comment
+POST http://localhost:3333/api/task/comment/taskID HTTP/1.1
+Content-Type: application/json
+
+{
+  "text": "new comment",
+  "author": "Smith"
+}
+
+###
+# Create a new comment by Task ID
+POST http://localhost:3333/api/task/comment/99a8874e-2b67-44fe-8e47-3eb454012122 HTTP/1.1
+Content-Type: application/json
+
+{
+  "text": "new comment",
+  "author": "Smith1"
+}
+
+###
+
+# Get list of comments
+GET http://localhost:3333/api/task/comment/list HTTP/1.1
+
+###
+
+# Get list of comments by taskId
+GET http://localhost:3333/api/task/comment/99a8874e-2b67-44fe-8e47-3eb454012122/list HTTP/1.1
+
+###
+
+# Get comment by ID
+GET http://localhost:3333/api/task/comment/7f3e96d5-24db-4045-8809-54957dbc85e1 HTTP/1.1
+
+###
+
+# Update comment by ID
+PATCH http://localhost:3333/api/task/comment/99a8874e-2b67-44fe-8e47-3eb454012140 HTTP/1.1
+Content-Type: application/json
+
+{
+  "text": "UPDATED!  new comment",
+  "author": "Smith"
+}
+
+
+###

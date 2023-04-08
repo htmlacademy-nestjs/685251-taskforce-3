@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@project/config/config-users": ["libs/config/config-users/src/index.ts"],
+      "@project/shared/app-types": ["libs/shared/app-types/src/index.ts"],
+      "@project/shared/app-types/review": [
+        "libs/shared/app-types/review/src/index.ts"
+      ],
+      "@project/util/util-core": ["libs/util/util-core/src/index.ts"],
+      "@project/util/util-types": ["libs/util/util-types/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

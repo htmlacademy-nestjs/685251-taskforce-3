@@ -1,0 +1,33 @@
+# Create a new comment
+POST http://localhost:3333/api/task/review/taskID HTTP/1.1
+Content-Type: application/json
+
+{
+  "text": "new comment",
+  "author": "Smith",
+  "rating": 5
+}
+
+###
+# Create a new review by Task ID
+POST http://localhost:3333/api/task/review/99a8874e-2b67-44fe-8e47-3eb454012122 HTTP/1.1
+Content-Type: application/json
+
+{
+  "text": "new comment",
+  "author": "Smith1",
+  "rating": 5
+}
+
+###
+
+# Get list of reviews by taskId
+GET http://localhost:3333/api/task/review/taskID/list HTTP/1.1
+
+###
+
+# Get comment by ID
+GET http://localhost:3333/api/task/review/c3d7ae35-b18b-4167-9799-ee8f92da05b7 HTTP/1.1
+
+###
+
